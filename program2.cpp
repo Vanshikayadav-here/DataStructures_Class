@@ -1,9 +1,14 @@
-#include<iostream>
+//wap to calculate sum of elements in an array
+
+#include <iostream>
 using namespace std;
-int main()
-{int ar[5] = {2,3,4,5,8};
-	int sum = 0;
-	for(int i = 0;i<5;i++)
-		sum+=ar[i];
-	cout<<sum<<endl;
-	return 0;}
+
+int main(){
+    int arr[5]={1,2,3,4,5};
+    int sum=0;
+    for(int i=0; i<5; i++){
+        sum+=arr[i];
+    }
+    cout<<"sum of elements are:"<<sum;
+    return 0; 
+}
